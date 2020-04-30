@@ -21,7 +21,7 @@
 title: Four Walls 
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I like to think of this site as my own version of the <a href="https://en.wikipedia.org/wiki/Wayback_Machine">Wayback Machine</a>
+  I like to think of this site as my own version of the <a target="_blank" href="https://en.wikipedia.org/wiki/Wayback_Machine">Wayback Machine</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
