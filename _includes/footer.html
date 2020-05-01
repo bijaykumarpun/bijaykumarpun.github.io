@@ -3,33 +3,12 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+        <p align="center" style="font-size:14px; font-style:oblique;">{{- site.description -}}</p>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
         {%- include social.html -%}
-      </div>
+	<p align="center">
 
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description -}}</p>
-      </div>
-    </div>
-
+    <h2  style="font-size: 12px; color: lightgrey">&#9400;2020 {{ site.title | escape }} | Bijay Kumar Pun</h2>
+	</p> 
   </div>
-
 </footer>
