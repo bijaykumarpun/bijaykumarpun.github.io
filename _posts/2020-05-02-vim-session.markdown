@@ -6,11 +6,6 @@ categories: [programming,vim]
 ---
 
 slkdfasdlkfasdj fasdlfkjdsalj lkasjjalksjdfldaf lksdjlkasdjflasdjkf kjhsfka qggj3ogi lxncvkvk jdfojsf;lsakjd lsjdfs 
-<h1>
-/h1>
-
-........insi.de is good
-
 asdflajsdf 
 asdflkasdjf sdaf
 asldfkjsalfjfsdafa

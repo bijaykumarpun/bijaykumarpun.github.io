@@ -5,12 +5,7 @@ date:   2020-05-01 10:25AM +0545
 categories: vim
 ---
 
-slkdfasdlkfasdj fasdlfkjdsalj lkasjjalksjdfldaf lksdjlkasdjflasdjkf kjhsfka qggj3ogi lxncvkvk jdfojsf;lsakjd lsjdfs 
-<h1>
-/h1>
-
-........insi.de is good
-
+This is just another vim document and you may or may not like this while you are at it
 asdflajsdf 
 asdflkasdjf sdaf
 asldfkjsalfjfsdafa
