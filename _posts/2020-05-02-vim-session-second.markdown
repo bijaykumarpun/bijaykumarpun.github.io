@@ -2,7 +2,7 @@
 layout: post
 title:  "Vim test session"
 date:   2020-05-01 10:25AM +0545
-categories: [programming,vim]
+categories: vim
 ---
 
 slkdfasdlkfasdj fasdlfkjdsalj lkasjjalksjdfldaf lksdjlkasdjflasdjkf kjhsfka qggj3ogi lxncvkvk jdfojsf;lsakjd lsjdfs 
