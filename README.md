@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BijayKumarPun/bijaykumarpun.github.io/master/asset/favicon_large.png" height="150" width="150"/>
+  <img src="https://raw.githubusercontent.com/BijayKumarPun/bijaykumarpun.github.io/master/_resource/favicon_large.png" height="150" width="150"/>
   </p>
   
   <h3 align="center">Four Walls</h3>
