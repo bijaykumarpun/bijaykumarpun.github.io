@@ -4,6 +4,9 @@ title: "Swift Playground Test Session 1"
 categories: [programming, swift“]
 ---
 
+> An introductory Swift test session using Swift Playground
+
+```
 import UIKit
 
 var str = "Hello, playground"
@@ -150,4 +153,4 @@ if let r1 = reading1,let  r2 = reading2, let r3 = reading3{
     print("Error in the code")
 }
 
-
+```
