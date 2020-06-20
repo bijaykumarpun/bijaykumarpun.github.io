@@ -76,6 +76,7 @@ This is present in `$HOME/.config/composer/vendor/bin` or `$HOME/.composer/vendo
 
 DONE!
 
+Update:
 
-
-
+For installing additional php packages:
+`apt-get install php-pear php7.4-curl php7.4-dev php7.4-gd php7.4-mbstring php7.4-zip php7.4-mysql php7.4-xml`
