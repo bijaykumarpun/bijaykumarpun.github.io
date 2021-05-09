@@ -3,9 +3,9 @@ layout: post
 title: "Event lookup system; Test Session 1 and 2"
 categories: [programming, laravel, study]
 ---
-> Event Lookup System was our final year college project for Bsc CSIT, batch of 2019. 
+> Event Lookup System was our final year college project for our Computer Science program, batch of 2019. 
 
-**Event Lookup System** is a web portal to find events based on date and location. It was originally written by [Sushil Kshetri](https://github.com/sushilkshetri) from the ground up and did **all** the coding part. Link to the original repository [here](https://github.com/sushilkshetri/event-lookup-system.git) in Github. It's written on top of PHP/Laravel. Though the deveopment work ended the day it was submitted for review, here I am, nearly after 12 months talking about it again.
+**Event Lookup System** is a web portal to find events based on date and location. It was originally written by [Sushil Kshetri](https://github.com/) from the ground up and did **all** the coding part. Link to the original repository [here](https://github.com/sks/event-lookup-system.git) in Github. It's written on top of PHP/Laravel. Though the deveopment work ended the day it was submitted for review, here I am, nearly after 12 months talking about it again.
 Part of the team, including me, also were Ashok Basnet and Milan Subedi. While Ashok and I worked on the Android part of the same system, it never had the honor of `git push origin master`, so to say. Milan, meanwhile, worked on documentation and some frontend part of the project.
 
 
