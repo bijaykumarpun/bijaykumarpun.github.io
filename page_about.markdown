@@ -9,8 +9,8 @@ permalink: /about/
 </div>
 
 <div align="center">
-//  Uncomment this to make social links visible
-//  {%- include social.html -%} 
+# Uncomment this to make social links visible
+# {%- include social.html -%} 
 </div>
 <p >
 
