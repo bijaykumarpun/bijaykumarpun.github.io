@@ -105,4 +105,5 @@ This however didn't solve the issue.
 > Apparently, the default authentication plugin changed in MySQL 8 to `caching_sha2_password` - thus causing the *authentication method* issue during migration
 Above code explicitly sets authentication plugin to *mysql_native_password* for the current user
 
+Read more about it [here](https://mysqlserverteam.com/upgrading-to-mysql-8-0-default-authentication-plugin-considerations/)
 ---
