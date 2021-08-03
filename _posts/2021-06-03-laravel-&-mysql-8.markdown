@@ -1,4 +1,10 @@
 
+
+
+
+<script>
+window.print()
+</script>
 > Something changed in MySQL8 - the default authentication plugin - causing `php artisan migrate` to not work as intended.
 
 > This is an exceprt from a GitHub issue created on [Vesh Grg's repository](https://github.com/VeshGrg/laravel_email_notify) - the link could be private!
