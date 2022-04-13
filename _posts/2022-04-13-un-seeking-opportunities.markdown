@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seeking opportunities
+title: Un-Seeking opportunities
 ---
 
 
