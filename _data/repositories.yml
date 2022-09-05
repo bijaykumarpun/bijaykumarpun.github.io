@@ -3,10 +3,7 @@ github_users:
   - alshedivat
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - BijayKumarPun/github-workflow-artifact
+  - BijayKumarPun/api-testing-cypress
+  - BijayKumarPun/nginx-conf
+  - BijayKumarPun/aws-amplify-auth
