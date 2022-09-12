@@ -21,7 +21,7 @@ horizontal: false
 
 <br>
 
-### Live Projects
+<!-- ### Live Projects -->
 <!-- pages/projects.md -->
 <div class="projects">
 <br>
