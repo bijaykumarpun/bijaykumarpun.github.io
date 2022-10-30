@@ -1,4 +1,4 @@
 ## Personal Blog
 
-Hosted at [www.bijaykumarpun.com.np](www.bijaykumarpun.com.np)
+<a href="www.bijaykumarpun.com.np">www.bijaykumarpun.com.np</a>
 
