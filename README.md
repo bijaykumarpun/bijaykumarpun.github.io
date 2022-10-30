@@ -1,4 +1,3 @@
 ## Personal Blog
 
-<a href="www.bijaykumarpun.com.np">www.bijaykumarpun.com.np</a>
-
+<a href="https://www.bijaykumarpun.com.np" target="_blank">www.bijaykumarpun.com.np</a>
