@@ -2,7 +2,7 @@ github_users:
   - bijaykumarpun
 
 github_repos:
-  - BijayKumarPun/github-workflow-artifact
+  - BijayKumarPun/android-release-pipeline
+  - BijayKumarPun/web-tic-tac-toe
   - BijayKumarPun/api-testing-cypress
-  - BijayKumarPun/nginx-conf
-  - BijayKumarPun/aws-amplify-auth
+  - BijayKumarPun/standard-repository-template
