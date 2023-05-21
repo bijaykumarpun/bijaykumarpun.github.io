@@ -3,6 +3,7 @@ github_users:
 
 github_repos:
   - BijayKumarPun/android-release-pipeline
+  - BijayKumarPun/standard-repository-template
   - BijayKumarPun/web-tic-tac-toe
   - BijayKumarPun/api-testing-cypress
-  - BijayKumarPun/standard-repository-template
+

@@ -8,7 +8,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  Setup-Environment:
+  Deploy to GitHub Pages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
