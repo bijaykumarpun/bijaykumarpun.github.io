@@ -12,4 +12,4 @@
 
 
 #### License
-> Unlicensed
+<img src="https://img.shields.io/github/license/bijaykumarpun/bijaykumarpun.github.io?style=flat-square"/>
