@@ -20,5 +20,7 @@ jobs:
           bundler-cache: false
       - name: Install Jekyll & Bundler
         run: gem install jekyll bundler
+      - name: Install dependencies
+        run: bundler install
       - name: Deploy
         run: ./bin/deploy
