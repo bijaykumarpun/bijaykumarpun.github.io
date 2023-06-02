@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: SDE • SDET • Building stuffs for the mobile & the web
+subtitle: Hardcore generalist • Honey badger • He/Him
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 Hi & welcome!
 <br>
 <br>
-I'm a software developer and test automation engineer working remotely from <a href="https://en.wikipedia.org/wiki/Nepal">Nepal</a> [UTC +5:45].
+I'm a software engineer working remotely from <a href="https://en.wikipedia.org/wiki/Nepal">Nepal</a> [UTC +5:45].
 <br><br>
 Please feel free to hang around to know more about my work and stuffs.
 <br><br>
