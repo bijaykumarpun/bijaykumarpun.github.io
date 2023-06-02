@@ -8,7 +8,7 @@
 
 #### Deployment Process
 
-<img src="https://github.com/BijayKumarPun/bijaykumarpun.github.io/assets/13991373/9e61cc65-9d1c-411d-b908-303712abcb45" width=500/>
+<img src="https://github.com/BijayKumarPun/bijaykumarpun.github.io/assets/13991373/9e61cc65-9d1c-411d-b908-303712abcb45" width=800/>
 
 
 #### License
