@@ -4,12 +4,14 @@
 
 <img src="https://img.shields.io/github/last-commit/bijaykumarpun/bijaykumarpun.github.io?style=flat-square"/>
 
-> Created using [Jekyll](https://jekyllrb.com/) & [GitHub Pages](https://pages.github.com/). Uses [al-folio](https://github.com/alshedivat/al-folio) theme.
+Created using [Jekyll](https://jekyllrb.com/) & [GitHub Pages](https://pages.github.com/). Uses [al-folio](https://github.com/alshedivat/al-folio) theme.
 
-#### Deployment Process
+### Deployment Process
+
+Push/merge changes to `main` branch to trigger automatic build & deployment process.
 
 <img src="https://github.com/BijayKumarPun/bijaykumarpun.github.io/assets/13991373/9e61cc65-9d1c-411d-b908-303712abcb45" width=800/>
 
 
-#### License
+### License
 <img src="https://img.shields.io/github/license/bijaykumarpun/bijaykumarpun.github.io?style=flat-square"/>
