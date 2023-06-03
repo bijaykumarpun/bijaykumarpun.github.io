@@ -1,6 +1,6 @@
-## Personal Blog
+## Personal Blog | <a href="https://www.bijaykumarpun.com.np" target="_blank">www.bijaykumarpun.com.np</a>
 
-<a href="https://www.bijaykumarpun.com.np" target="_blank">www.bijaykumarpun.com.np</a>
+
 
 <img src="https://img.shields.io/github/last-commit/bijaykumarpun/bijaykumarpun.github.io?style=flat-square"/>
 
