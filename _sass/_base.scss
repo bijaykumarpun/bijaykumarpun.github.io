@@ -312,6 +312,38 @@ footer.sticky-bottom {
   }
 }
 
+// Certifications
+@media (min-width: 768px) {
+  .certificate {
+    max-width: 100%;
+    // background-color: grey;
+
+  }
+}
+
+.certificate-image {
+  padding: 1px;
+  background-color: grey;
+
+}
+
+.certificate-text {
+  text-align: start;
+  padding: 0px 10px 0px 10px;
+}
+
+.certificate-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.certificate-subtitle-large {
+  font-size: 16px;
+}
+
+.certificate-subtitle-small {
+  font-size: 14px;
+}
 // Repositories
 
 @media (min-width: 768px) {

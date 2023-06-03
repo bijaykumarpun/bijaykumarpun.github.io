@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 ### Repositories
-
+---
 {% if site.data.repositories.github_repos %}
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -76,3 +76,17 @@ horizontal: false
   {%- endif -%}
 {%- endif -%}
 </div>
+
+
+### Certifications
+---
+{% if site.data.certifications.certifications %}
+
+<div class="repositories">
+  {% for certificate in site.data.certifications.certifications %}
+    {% include certifications/certificate.html certificate=certificate%}
+  {% endfor %}
+</div>
+{% endif %}
+
+<br>
