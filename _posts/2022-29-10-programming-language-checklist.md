@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Programming language checklist"
+title: "Fundamentals of programming language"
 date: 2022-10-29 15:00:00
 description: Checklist for picking up a new programming language
 ---
