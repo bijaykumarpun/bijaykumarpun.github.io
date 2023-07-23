@@ -6,6 +6,12 @@ description: "Design pattern"
 ---
 
 ---
+Clean architecture properties:
+- Independent of framework
+- Testable
+- Independent of UI
+- Independent of database
+- Independent of any external agency
 ```
 app
 domain
