@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SCRUM Ceremonies"
-date: 2023-06-25 18:00:00
+date: 2023-07-30 08:57:00
 description: "SCRUM ceremonies"
 ---
 
