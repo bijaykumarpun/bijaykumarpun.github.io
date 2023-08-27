@@ -6,7 +6,7 @@ description: "Design pattern"
 ---
 
 ---
-### Module separation
+#### Module separation
 
 ```
 app
@@ -14,7 +14,7 @@ domain (optional)
 data
 ```
 
-### Properties
+#### Properties
 
 - Independent of framework
 - Testable
@@ -22,15 +22,15 @@ data
 - Independent of database
 - Independent of any external agency
 
-### Data flow
+#### Data flow
 
-<img src="/assets/img/al-folio-preview.png>
+<img src="/assets/img/posts/clean-architecture-dfd.png"/>
 
-### Example project folder structure
-
-> Android project
+#### Example project folder structure
 
 ```
+// Android project
+
   ├── MyWeatherApplication.kt
 ├── data
 │   ├── repositories
