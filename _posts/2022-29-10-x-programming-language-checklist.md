@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Fundamentals of programming language"
+title: "Checklist: X Programming Language"
 date: 2022-10-29 15:00:00
 description: Checklist for picking up a new programming language
 ---
 
 ---
 
-**Part I : Basics **
+
+##### Part I : Preliminaries 
 
 - Origin
 - Version history
@@ -21,7 +22,7 @@ description: Checklist for picking up a new programming language
   - Imperative (Procedural, Structured, Object Oriented) vs declarative (Functional, Logic)
 - Setup & installation
 
-**Part II : Core **
+##### Part II : Syntax
 
 - Syntax
   - Variables

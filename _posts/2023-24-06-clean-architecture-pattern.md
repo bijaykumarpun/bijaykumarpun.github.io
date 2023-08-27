@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "Clean architecture pattern"
+title: "Clean Architecture Pattern"
 date: 2023-06-24 18:00:00
 description: "Design pattern"
 ---
 
 ---
-#### Module separation
+#### Principles
+
+- Separation of concerns
+- Drive UI from data models
+- Single source of truth
+- Unidirectional data flow (States & events flow in opposite directions)
+
+#### Modules
 
 ```
 app
@@ -14,19 +21,11 @@ domain (optional)
 data
 ```
 
-#### Properties
-
-- Independent of framework
-- Testable
-- Independent of UI
-- Independent of database
-- Independent of any external agency
-
 #### Data flow
 
-<img src="/assets/img/posts/clean-architecture-dfd.png"/>
+<img src="/assets/img/posts/clean-architecture-dfd.png" width="700"/>
 
-#### Example project folder structure
+#### Example folder structure
 
 ```
 // Android project
