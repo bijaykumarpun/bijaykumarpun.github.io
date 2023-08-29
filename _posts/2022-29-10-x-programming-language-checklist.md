@@ -40,4 +40,9 @@ description: Checklist for picking up a new programming language
   - Polymorphism
   - Abstraction
 
+##### Part III : Structure
+
+- Project folder structure
+- Design pattern
+
 ---
