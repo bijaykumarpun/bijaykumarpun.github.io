@@ -2,7 +2,7 @@
 layout: page
 title: work
 permalink: /work/
-description: Everything related to my work and contribution
+description: Some highlights related to my work
 nav: true
 nav_order: 2
 display_categories: [work, fun]
