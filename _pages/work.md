@@ -8,6 +8,19 @@ nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
+### Company Badges
+---
+{% if site.data.companies.companies %}
+
+<div class="companies" style="display:grid; grid-template-columns: auto auto auto;">
+  {% for company in site.data.companies.companies %}
+    {% include companies/companies.html company=company%}
+  {% endfor %}
+</div>
+{% endif %}
+
+<br>
+
 
 ### Repositories
 ---

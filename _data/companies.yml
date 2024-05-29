@@ -1,0 +1,24 @@
+companies:
+
+- organization: Piksort
+  logo: https://media.licdn.com/dms/image/D560BAQGHCpTYx5XbKw/company-logo_100_100/0/1692768402720/piksort_logo?e=1724889600&v=beta&t=PubrGnEaZunWGVDSn-HlV3k5LdgzDLVMBUPT7RN0arM
+  link: https://www.piksort.com
+
+- organization: Xendit
+  logo: https://media.licdn.com/dms/image/C4D0BAQEFJPFvzTYq5A/company-logo_200_200/0/1630456612741/xendit_logo?e=1724889600&v=beta&t=3V1_BAFT5eXwhE7jsM9Idg1XSC7f8TSz6GE28Xb64lM
+  link: https://www.xendit.co
+
+- organization: GitStart
+  logo: https://media.licdn.com/dms/image/C4D0BAQEn-inaIfvjvQ/company-logo_200_200/0/1649706073269/gitstart_community_logo?e=1724889600&v=beta&t=FlGqycIY_kOGCcVl15uQ3Gge9cmJlCuxEyrP1d9dlL8
+  link: https://www.gitstart.com
+
+- organization: Webpoint Solutions
+  logo: https://avatars.githubusercontent.com/u/48634792?s=200&v=4
+  link: https://webpoint.io/
+
+- organization: Yarsa Labs
+  logo: https://avatars.githubusercontent.com/u/66253338?s=200&v=4
+  link: https://www.yarsalabs.com/
+
+
+

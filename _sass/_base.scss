@@ -296,11 +296,11 @@ footer.sticky-bottom {
 
 .cv {
   margin-bottom: 40px;
-  
+
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
+
     .list-group-item {
       background-color: inherit;
 
@@ -310,6 +310,16 @@ footer.sticky-bottom {
       }
     }
   }
+}
+// Company images
+.company-image{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
+.company-image:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 // Certifications
