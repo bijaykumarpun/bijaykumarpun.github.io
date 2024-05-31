@@ -12,7 +12,7 @@ horizontal: false
 ---
 {% if site.data.companies.companies %}
 
-<div class="companies" style="display:grid; grid-template-columns: auto auto auto;">
+<div class="companies" style="display:grid; grid-template-columns: auto auto auto auto auto;">
   {% for company in site.data.companies.companies %}
     {% include companies/companies.html company=company%}
   {% endfor %}

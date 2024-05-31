@@ -20,8 +20,8 @@ Namaste!
 <br>
 I'm a software engineer working remotely from <a href="https://en.wikipedia.org/wiki/Nepal">Nepal</a> [UTC +5:45].
 <br><br>
-I work with mobile technologies for the most part, but web is also something I'm equally, if note more, passionate about.
+I work with mobile technologies for the most part, but web is also something I'm equally, if not more, passionate about.
 <br><br>
-Please feel free to <a href="https://calendly.com/bijay-workplace/1-1-with-bijay">check out my schedule</a> for a call!
+If you want to schedule a call, feel free to <a href="https://calendly.com/bijay-workplace/1-1-with-bijay">check out my schedule in Calendly.</a>
 <br><br>
 Adios!
