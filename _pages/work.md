@@ -103,3 +103,18 @@ horizontal: false
 {% endif %}
 
 <br>
+
+### OSS Contributions
+---
+
+{% if site.data.contributions.contributions %}
+
+<div class="repositories">
+  {% for contribution in site.data.contributions.contributions %}
+    {% include contributions/contribution.html contribution=contribution%}
+  {% endfor %}
+</div>
+{% endif %}
+<a style="color:#2F80ED;  text-decoration: underline; padding-left:8px; padding-top:20px;" href="https://github.com/bijaykumarpun">Click for more</a>
+
+---

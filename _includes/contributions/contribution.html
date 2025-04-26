@@ -1,0 +1,17 @@
+<div class="certificate p-2 text-center pb-2">
+    <a href="{{include.contribution.link}}" style="text-decoration: none;">
+        <div style="display: flex;  flex-direction: row">
+            <div>
+                <img src="{{include.contribution.logo}}" width="60" height="60" background="red" />
+            </div>
+            <div class="certificate-text">
+                <div class="certificate-title"> {{include.contribution.organization}} </div>
+                <div class="certificate-subtitle">
+                    <div style="color: #2F80ED; text-decoration: underline;">{{include.contribution.description}}</div>
+                    <!-- <div class="certificate-subtitle-small">Issued {{include.certificate.issued_date}}</div>
+                    <div class="certificate-subtitle-small">Credential ID {{include.certificate.credential_id}}</div> -->
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
