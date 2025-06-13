@@ -46,5 +46,6 @@ An **Elastic IP (EIP)** in AWS is a static, public IPv4 address designed for dyn
 
 Elastic IPs are a critical tool for managing public-facing applications in the AWS cloud while maintaining reliability and flexibility.
 
-*Summarized with ChatGPT
+> Summarized with ChatGPT
+
 ---
