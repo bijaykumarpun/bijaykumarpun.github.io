@@ -6,30 +6,59 @@ description: "Stakeholder Management"
 ---
 
 ---
-> Stakeholder Management is just people management! <br>But sometimes, specially if this concept is still alien, things can get super confusing and frustrating at the same time pretty quickly.
+> **Stakeholder Management is just people management!**  
+But if the concept is new or not well understood, it can quickly become confusing—and frustrating.
 
-#### What is stakeholder management?
-While working on any project, there are stakeholders - peoples/entities who have vested interest on the project under developement. Since they won't be activly building it, it's still "super" important for them to keep track of what exactly is happening - and perhaphs reprioritize their goals accordingly.
+---
 
-But, this may not be immediately clear, or just not be on the mind of someone working directly on the project - afterall, their goal is to finish what's been assigned to them, and they may as well be doing it in the best of their ability.
+## What is Stakeholder Management?
 
-The catch here is that those working directly on the project may not really understand that others, who aren't working closely, do not have as much of the updates about the project as they have and yet it's important for them to have those updates. Sometimes, things aren't very transparent unless explicitly stated.
+In any project, there are *stakeholders*—people or entities with a vested interest in the project's outcome. While they may not be directly involved in building the product, it's still **critically important** for them to stay informed. Why? Because they may need to adjust priorities, provide input, or align other efforts based on the project's progress.
 
-This is where stakeholder management comes into place.
+This need for visibility, however, isn't always obvious to those working hands-on with the project. Developers or contributors may be fully immersed in completing their tasks, focused on execution. For them, it might not be top of mind to consider what others need to know.
 
-It is necessary that everyone (or those that need to) on the team has a reasonable amount of idea on what's really happening, and where the project is being led or who is working on what and what the expected deadline is. Stakeholder management is a way to impart just that.
+Here’s the catch:  
+Those *not* working directly on the project don't have the same visibility. If no one communicates with them explicitly, things can become opaque. They may be left guessing about progress, risks, or delays—which leads to misalignment or dissatisfaction.
 
-This makes it immediately clear that stakeholder management is largly about communication, and it indeed is.
+**That’s where stakeholder management comes in.**
 
-Some ways to ensure a proper stakeholder management:
-1. Overcommunicate - this can't be oversaid!
-2. Provide timely updates
-3. Make sure blockers are informed to the team
-4. Don't be MIA!
+---
 
-#### Also,
-Having said everything about stakeholder management, it's also equally important to sought out a balance between communicating and "not communicating". Providing timely updates is good, but also one should learn to say no, or push back for deadlines if they aren't achievable.
+## Why it Matters
 
+Stakeholder management ensures that the *right people* have the *right information* at the *right time*. It’s about making sure everyone—especially those who need to stay in the loop—understands what’s happening, what the direction is, who’s responsible for what, and when things are expected to be delivered.
 
+At its core, stakeholder management is **effective communication**. That’s the heart of it.
+
+---
+
+## Tips for Good Stakeholder Management
+
+1. **Overcommunicate.**  
+   When in doubt, share the update. It’s better to say something twice than not at all.
+
+2. **Share timely updates.**  
+   Even if progress is slow or blocked, keep stakeholders informed.
+
+3. **Flag blockers early.**  
+   Don't wait until it’s critical—if something’s in your way, raise it.
+
+4. **Don’t go MIA.**  
+   Going silent creates anxiety and confusion. Stay visible.
+
+---
+
+## A Word on Balance
+
+While communication is essential, it's equally important to strike a balance. Constant updates can become noise. So yes—share progress, raise flags, but also:
+
+- Say *no* when timelines are unrealistic.
+- Push back on unreasonable demands.
+- Manage expectations just as much as deliverables.
+
+---
+
+**In short:**  
+Stakeholder management is not about bureaucracy—it's about *trust*, *transparency*, and *teamwork*. When done well, it keeps everyone rowing in the same direction.
 
 ---
