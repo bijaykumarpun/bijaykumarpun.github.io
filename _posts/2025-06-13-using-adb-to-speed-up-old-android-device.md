@@ -128,7 +128,7 @@ echo "Done. Packages disabled."
 
 ##### 4. Make the script executable
 
-`sudo chmod +x ./disable-packages.sh`
+`sudo chmod +x disable-packages.sh`
 
 ##### 5. Execute
 
