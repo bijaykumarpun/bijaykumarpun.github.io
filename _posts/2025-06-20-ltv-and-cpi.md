@@ -16,6 +16,8 @@ LTV = ARPU × Average User Lifespan
 - Helps to decide how much we can spend to acquire a user.
 - Core to long-term profitability and valuation.
 
+--- 
+
 ### ARPU (Average Revenue Per User)
 
 ```
@@ -27,6 +29,7 @@ If earnings is $500 this month and had 1,000 active users:
 ```
 ARPU = $500 / 1000 = $0.50
 ```
+---
 
 ### CPI (Cost Per Install)
 The average cost you pay in advertising to acquire one new install.
@@ -37,6 +40,7 @@ CPI = Total Ad Spend / Number of Installs
 - Tells how efficiently we’re acquiring users.
 - Helps measure the performance of paid campaigns.
 
+---
 
 ### Key Rule:
 
@@ -44,8 +48,11 @@ For profit:
 - LTV must be greater than CPI
 (i.e., we’re earning more from a user than it costs to get them)
 
+---
 
-#### Sample LTV Calculate for an early stage App
+#### Sample LTV & CPI Calculation
+
+This was done on an early stage app, which has a negative net revenue
 
 <img src="/assets/img/posts/ltv-retention.png" height="400px">
 
