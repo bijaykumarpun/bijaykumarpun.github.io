@@ -160,7 +160,7 @@ It is also possible that the app experienced a temporary ranking decrease due to
 ### ACTION ITEMS
 - Remove deprecated paywall from the codebase ✅
 - Create an incident report & post mortem analysis ✅
-- Decouple configuration payloads ⬜️
+- Decouple configuration payloads ✅
 - Establish release checklist for remote configuration changes ⬜️
 
 ---
