@@ -4,14 +4,22 @@
 
 <img src="https://img.shields.io/github/last-commit/bijaykumarpun/bijaykumarpun.github.io?style=flat-square"/>
 
-Created using [Jekyll](https://jekyllrb.com/) & [GitHub Pages](https://pages.github.com/). Uses [al-folio](https://github.com/alshedivat/al-folio) theme.
+Created using [Jekyll](https://jekyllrb.com/) & [GitHub Pages](https://pages.github.com/) using [al-folio](https://github.com/alshedivat/al-folio) theme.
 
-### Deployment Process
+# Git Workflow
 
-Push/merge changes to `main` branch to trigger automatic build & deployment process.
+```mermaid
+flowchart LR
+    push["git push"] --> feat((feat))
+    feat -->|pull request| main((main))
+    main -->|workflow trigger| workflow["GitHub Actions"]
+    workflow -->|deployment| web((🌐))
+```
 
-<img src="https://github.com/BijayKumarPun/bijaykumarpun.github.io/assets/13991373/9e61cc65-9d1c-411d-b908-303712abcb45" width=800/>
+## Flow
 
-
-### License
-<img src="https://img.shields.io/github/license/bijaykumarpun/bijaykumarpun.github.io?style=flat-square"/>
+1. `git push` changes to `feat` branch 
+2. Open a PR from `feat` to `main`.
+3. Merge PR to `main` to trigger CI/CD workflow.
+4. The workflow performs the deployment.
+5. Done - Changes are now available on the web
