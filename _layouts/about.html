@@ -42,7 +42,10 @@ layout: default
             {{ content }}
           </div>
           <hr>
-         <b>GitHub Contribution Chart</b>
+          <br>
+         <h3>GitHub Activity Chart</h3>
+         <div></div>
+Majority of the activity comes from working on my own projects.
        <div style="margin-bottom: 10px"></div>
        <a href="https://github.com/bijaykumarpun">
           <img src="https://ghchart.rshah.org/1b6320/bijaykumarpun" alt="GitHub Contribution Chart" />
@@ -50,10 +53,10 @@ layout: default
 
 <hr>
 
-
+<br>
 <!-- <p>Latest Posts</p> -->
 
-        <b>Latest Posts</b><br><br>
+        <h3>Latest Posts</h3>
         {% for post in site.posts limit: 4 %}   
         <a href="{{ post.url }}">{{ post.title }}</a>
 
