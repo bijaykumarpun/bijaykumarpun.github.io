@@ -1,0 +1,82 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Huawei ONT Access Point Setup | Bijay Kumar Pun</title> <meta name="author" content="Bijay Kumar Pun"/> <meta name="description" content="Turning a Huawei Router into a Wireless Access Point (LAN to LAN)"/> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"/> <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"/> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous"> <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light"/> <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>"> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="canonical" href="https://bijaykumarpun.github.io/blog/2026/using-old-router-as-wireless-ap/"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark"/> <script src="/assets/js/theme.js"></script> <script src="/assets/js/dark_mode.js"></script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Bijay </span>Kumar Pun</a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about</a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a> </li> <li class="nav-item "> <a class="nav-link" href="/work/">work</a> </li> <li class="nav-item "> <a class="nav-link" href="/interests/">interests</a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fas fa-moon"></i> <i class="fas fa-sun"></i> </button> </li> </ul> </div> </div> </nav> </header> <div class="container mt-5"> <div class="post"> <header class="post-header"> <h1 class="post-title">Huawei ONT Access Point Setup</h1> <p class="post-meta">July 25, 2026</p> <p class="post-tags"> <a href="/blog/2026"> <i class="fas fa-calendar fa-sm"></i> 2026 </a> </p> </header> <article class="post-content"> <p>#</p> <h2 id="summary">Summary</h2> <p>When repurposing an old Huawei router as a secondary router connected via a LAN cable, simply plugging the secondary router into the primary router wasn’t enough. The device required a few configuration changes before it could function as a wireless access point (AP).</p> <p>The steps below show how to configure a <strong>Huawei EchoLife EG8141A5</strong> as a wireless access point using a <strong>LAN-to-LAN connection</strong>.</p> <blockquote> <p><strong>Note:</strong> Some settings and menus may vary depending upon router model</p> </blockquote> <hr> <h2 id="steps">Steps</h2> <h3 id="1-connect-the-routers">1. Connect the Routers</h3> <p>Use an Ethernet (LAN) cable to connect the primary router to the secondary router.</p> <ul> <li>Connect one end of the cable to a LAN port on the primary router.</li> <li>Connect the other end to a LAN port on the secondary router.</li> </ul> <blockquote> <p>Do not use WAN port on the secondary router when configuring it as an access point.</p> </blockquote> <hr> <h3 id="2-log-in-to-the-secondary-router">2. Log in to the Secondary Router</h3> <p>For the <strong>Huawei EchoLife EG8141A5</strong>, log in using the <strong>super admin</strong> account, which provides access to additional settings that are not available to regular users.</p> <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Username: Epadmin
+Password: adminEp
+</code></pre></div></div> <blockquote> <p>*Credentials may vary</p> </blockquote> <hr> <h3 id="3-enable-lan-port-configuration">3. Enable LAN Port Configuration</h3> <blockquote> <p>Some routers have LAN ports enabled by default, so this step may not be necessary.</p> </blockquote> <p>Navigate to:</p> <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Advanced → LAN → Layer 2/3 Port
+</code></pre></div></div> <ul> <li>Check the box for the LAN port being used for the connection.</li> <li>Click <strong>Apply</strong>.</li> </ul> <hr> <h3 id="4-change-the-routers-ip-address">4. Change the Router’s IP Address</h3> <p>The secondary router should be assigned an IP address that belongs to the same subnet as the primary router.</p> <p>For example:</p> <table> <thead> <tr> <th>Device</th> <th>IP Address</th> </tr> </thead> <tbody> <tr> <td>Primary Router</td> <td><code class="language-plaintext highlighter-rouge">192.168.18.1</code></td> </tr> <tr> <td>Secondary Router</td> <td><code class="language-plaintext highlighter-rouge">192.168.18.2</code></td> </tr> </tbody> </table> <p>Navigate to:</p> <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Advanced → LAN → LAN Host
+</code></pre></div></div> <p>Under <strong>Primary Address</strong>, enter a new IP address that:</p> <ul> <li>Is within the same subnet as the primary router.</li> <li>Is not already in use by another device.</li> </ul> <p>If a <strong>Secondary Address</strong> option is available, it can be disabled.</p> <p>Click <strong>Apply</strong> when finished.</p> <blockquote> <p>A subnet is simply the shared network portion of an IP address. If primary router uses <code class="language-plaintext highlighter-rouge">192.168.18.x</code>, the secondary router should also use <code class="language-plaintext highlighter-rouge">192.168.18.x</code>.</p> </blockquote> <hr> <h3 id="5-disable-the-dhcp-server">5. Disable the DHCP Server</h3> <p>The DHCP server should be disabled on the secondary router so that only the primary router assigns IP addresses to devices on the network.</p> <blockquote> <p><strong>DHCP</strong> = <strong>Dynamic Host Configuration Protocol</strong>.</p> </blockquote> <p>Having multiple DHCP servers on the same network can lead to IP conflicts and connectivity issues.</p> <p>Navigate to:</p> <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Advanced → LAN → DHCP Server
+</code></pre></div></div> <ul> <li>Uncheck <strong>Enable Primary DHCP Server</strong>.</li> <li>Click <strong>Apply</strong>.</li> </ul> <hr> <h2 id="done">Done!</h2> <p>After completing the above steps, the secondary Huawei router should function as a <strong>wireless access point</strong>, thereby extending the existing Wi-Fi network while relying on the primary router for network management.</p> <p>A reboot may or may not be required, depending on the router model.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Final topology:
+  Internet → Primary Router (192.168.18.1)
+            └── LAN Cable
+                  └── Secondary Router (192.168.18.2)
+                        └── Wireless Clients
+</code></pre></div></div> <hr> <h5 id="textdump">TEXTDUMP</h5> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##### terminal history
+ 428  route -n get default | grep gateway
+  429  route -n get default
+  430  route
+  431  netstat
+  432  netstat -nr | grep default
+  433  networksetup -getinfo wi-fi
+  434  netstat -nr | grep default
+  435  route -n get default
+  436  route -n get default | grep gateway
+  437  ipconfig getifaddr en0
+  438  ipconfig getifaddr en0
+  439  ipconfig getifaddr en0
+  440  ipconfig getifaddr en0
+  441  ipconfig getifaddr en0
+</code></pre></div></div> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##### Search history
+echolife eg8141a5 admin login
+reddit setup huawei echolife eg8141a5 as AP
+</code></pre></div></div> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##### ChatGPT Log
+Connected Huawei EchoLife EG8141A5 to primary router using LAN cable.
+Verified physical link LEDs on both routers.
+Attempted LAN-to-LAN connection without additional configuration.
+Secondary router Wi-Fi was visible but no internet access.
+Confirmed WAN port was not in use.
+Logged into router using default admin account.
+Insufficient permissions detected.
+Logged into router using Epadmin credentials.
+Navigated to Advanced settings.
+Discovered Layer 2/3 Port configuration menu.
+Enabled required LAN port.
+Applied LAN port changes.
+Verified primary router IP address.
+Primary router IP: 192.168.18.1
+Navigated to LAN Host settings.
+Current secondary router IP: 192.168.100.1
+Updated secondary router IP to 192.168.18.2
+Disabled Secondary Address.
+Applied IP address changes.
+Reconnected to router using updated IP address.
+Verified router accessibility at 192.168.18.2
+Navigated to DHCP Server settings.
+Detected Primary DHCP Server enabled.
+Disabled Primary DHCP Server.
+Applied DHCP configuration changes.
+Verified DHCP server state: Disabled.
+Restarted secondary router.
+Established LAN-to-LAN connection.
+Verified wireless SSID broadcast.
+Connected test device to secondary router Wi-Fi.
+Requested IP address from network.
+Received IP address from primary router.
+Assigned IP: 192.168.18.15
+Verified subnet mask.
+Verified default gateway.
+Gateway: 192.168.18.1
+Performed internet connectivity test.
+Internet access confirmed.
+Verified access to primary router admin panel.
+Verified access to secondary router admin panel.
+Confirmed both routers are within same subnet.
+Confirmed no IP conflicts detected.
+Confirmed no double NAT.
+Confirmed NAT handled by primary router.
+Confirmed DHCP handled by primary router.
+Confirmed wireless access point functionality.
+Observed seamless connectivity across access points.
+No factory reset required.
+No additional firmware changes required.
+Configuration completed successfully.
+Final topology established.
+Internet → Primary Router → Secondary Router (AP) → Wireless Clients
+</code></pre></div></div> </article> </div> </div> <footer class="fixed-bottom"> <div class="container mt-0"> © Copyright 2026 Bijay Kumar Pun. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Last updated: August 24, 2026. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script> <script defer src="/assets/js/masonry.js" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js"></script> <script defer src="/assets/js/common.js"></script> <script type="text/javascript">window.MathJax={tex:{tags:"ams"}};</script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script> </body> </html>
