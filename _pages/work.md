@@ -8,11 +8,10 @@ nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
-### Company Badges
+### Work Experiences
 ---
 {% if site.data.companies.companies %}
-
-<div class="companies" style="display:grid; grid-template-columns: auto auto auto auto auto;">
+<div>
   {% for company in site.data.companies.companies %}
     {% include companies/companies.html company=company%}
   {% endfor %}
