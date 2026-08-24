@@ -2,11 +2,12 @@
 layout: page
 title: interests
 permalink: /interests/
-description: Stuffs that keep me occupied
+description: 
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
 
-TBD
+> trekking, swimming & fixing stuff
+
