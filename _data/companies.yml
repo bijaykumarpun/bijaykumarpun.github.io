@@ -10,7 +10,7 @@ companies:
       - "[android] refactored existing codebase to adopt clean architecture while continuing feature development and delivery"
       - "gained hands-on experience in feature optimization and founder-led, user-driven product delivery"
 
-  - organization: GitStart Community
+  - organization: GitStart Community (YC S19)
     logo: https://media.licdn.com/dms/image/v2/C4D0BAQEn-inaIfvjvQ/company-logo_200_200/company-logo_200_200/0/1649706073269/gitstart_community_logo?e=2147483647&v=beta&t=2xcG8VHbxMu3PWLd5IkvGM5OqNU5aVn6jB9IkJq1Gms
     link: #
     position: "Software Engineer - Mobile"
@@ -21,7 +21,7 @@ companies:
       - "developed features across mobile (ios, android & cross-platform) and web (fe & be) platforms"
       - "learned language-agnostic feature development, client-facing comms, and quality assurance processes across teams"
 
-  - organization: Xendit
+  - organization: Xendit (YC S15)
     logo: https://media.licdn.com/dms/image/v2/C4D0BAQEFJPFvzTYq5A/company-logo_200_200/company-logo_200_200/0/1630456612741/xendit_logo?e=2147483647&v=beta&t=XXRiq57j31r9-ti8jfjytB9TU0O94dxfdXrsnjcZy6c
     link: #
     position: "Quality Assurance Automation Engineer"
