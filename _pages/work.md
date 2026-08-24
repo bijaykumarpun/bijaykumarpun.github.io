@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: work
 title: work
 permalink: /work/
-description: Some highlights related to my work
+description:
 nav: true
 nav_order: 2
 display_categories: [work, fun]
@@ -108,12 +108,11 @@ horizontal: false
 
 {% if site.data.contributions.contributions %}
 
-<div class="repositories">
+<div class="contributions">
   {% for contribution in site.data.contributions.contributions %}
     {% include contributions/contribution.html contribution=contribution%}
   {% endfor %}
 </div>
 {% endif %}
-<a style="color:#2F80ED;  text-decoration: underline; padding-left:8px; padding-top:20px;" href="https://github.com/bijaykumarpun">Click for more</a>
 
 ---
