@@ -1,9 +1,37 @@
-<div class="company p-2 text-center">
+<div class="company p-2">
     <a href="{{include.company.link}}" style="text-decoration: none;">
-        <div>
-            <div style="display: grid; margin-top: 16px;">
-                <img class="company-image" src="{{include.company.logo}}" height="70"
-                     />
+        <div style="display: flex; flex-direction: row;">
+            <div style="flex-shrink: 0;">
+                <img
+                    class="company-image"
+                    src="{{include.company.logo}}"
+                    width="48"
+                    height="48"
+                />
+            </div>
+
+            <div class="company-text">
+                <div class="company-title">
+                    {{include.company.position}}
+                </div>
+
+                <div class="company-subtitle">
+                    {{include.company.organization}}
+                </div>
+
+                <div class="company-subtitle-small">
+                    {{include.company.date}}
+                </div>
+
+                <div class="company-subtitle-small">
+                    {{include.company.location}} · {{include.company.mode}}
+                </div>
+
+                <div class="company-description">
+                    {% for item in include.company.description %}
+                        <div>• {{item}}</div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </a>
